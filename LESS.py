@@ -20,4 +20,4 @@ cir2 = Circle(2)
 
 figures = [rect1, rect2, sq1, sq2, cir1, cir2]
 for figure in figures:
-    print(figure.get_area())
+    print(figure, figure.get_area())
